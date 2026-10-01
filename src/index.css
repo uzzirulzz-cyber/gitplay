@@ -159,3 +159,46 @@ body {
 .wa-bg-pattern {
   background: #0b141a radial-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px) 0 0/18px 18px;
 }
+
+/* PlayBeat Equalizer and Soundwave Animation */
+@keyframes pb-eq-1 {
+  0%, 100% { height: 45%; }
+  50% { height: 90%; }
+}
+@keyframes pb-eq-2 {
+  0%, 100% { height: 85%; }
+  50% { height: 48%; }
+}
+@keyframes pb-eq-3 {
+  0%, 100% { height: 42%; }
+  35% { height: 92%; }
+  75% { height: 35%; }
+}
+@keyframes pb-glow-pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 0.95; transform: scale(1.08); }
+}
+
+.animate-pb-eq-1 {
+  animation: pb-eq-1 1.25s ease-in-out infinite;
+}
+.animate-pb-eq-2 {
+  animation: pb-eq-2 1.45s ease-in-out infinite 0.15s;
+}
+.animate-pb-eq-3 {
+  animation: pb-eq-3 1.15s ease-in-out infinite 0.3s;
+}
+.animate-pb-glow {
+  animation: pb-glow-pulse 3s ease-in-out infinite;
+}
+
+/* Hover acceleration: equalizer beats faster on group hover */
+.group:hover .animate-pb-eq-1 {
+  animation-duration: 0.6s;
+}
+.group:hover .animate-pb-eq-2 {
+  animation-duration: 0.7s;
+}
+.group:hover .animate-pb-eq-3 {
+  animation-duration: 0.55s;
+}

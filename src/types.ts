@@ -116,3 +116,35 @@ export interface StorefrontZipInspection {
   inspectedFile?: string;
   uploadedAt: string;
 }
+
+export interface CustomerUser {
+  id: string;
+  name: string;
+  email: string;
+  phone: string;
+  avatarUrl?: string;
+  memberTier: 'Silver' | 'Gold' | 'VIP Platinum';
+  rewardPoints: number;
+  memberSince: string;
+  preferredCurrency: string;
+  isVerified: boolean;
+  notificationPrefs: {
+    whatsapp: boolean;
+    email: boolean;
+    sms: boolean;
+  };
+}
+
+export interface CustomerLicense {
+  id: string;
+  orderNumber: string;
+  productName: string;
+  category: string;
+  duration: string;
+  licenseKey: string;
+  licenseType: 'code' | 'account_invite' | 'credentials' | 'm3u_stream';
+  status: 'active' | 'expiring_soon' | 'expired';
+  activatedAt: string;
+  expiresAt: string;
+  instructions: string;
+}

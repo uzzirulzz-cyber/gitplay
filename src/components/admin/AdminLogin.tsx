@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useCommerce } from '../../context/CommerceContext.tsx';
 
 export const AdminLogin: React.FC = () => {
-  const { adminLogin, setCurrentView } = useCommerce();
+  const { adminLogin, setCurrentView, addToast } = useCommerce();
   const [email, setEmail] = useState('admin@playbeat.digital');
   const [password, setPassword] = useState('playbeat1122');
   const [showPassword, setShowPassword] = useState(false);

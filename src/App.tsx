@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { CommerceProvider, useCommerce } from './context/CommerceContext.tsx';
+import { CustomerAuthProvider } from './context/CustomerAuthContext.tsx';
 import { StorefrontView } from './components/storefront/StorefrontView.tsx';
 import { AdminView } from './components/admin/AdminView.tsx';
 
@@ -55,7 +56,9 @@ const AppContent: React.FC = () => {
 export default function App() {
   return (
     <CommerceProvider>
-      <AppContent />
+      <CustomerAuthProvider>
+        <AppContent />
+      </CustomerAuthProvider>
     </CommerceProvider>
   );
 }

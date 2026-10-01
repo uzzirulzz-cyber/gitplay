@@ -5,12 +5,15 @@ import { StorefrontHero } from './StorefrontHero.tsx';
 import { CategoryBrowse } from './CategoryBrowse.tsx';
 import { ProductGrid } from './ProductGrid.tsx';
 import { StorefrontBanners } from './StorefrontBanners.tsx';
+import { SignUpSection } from './SignUpSection.tsx';
 import { StorefrontTrust } from './StorefrontTrust.tsx';
 import { ProductDetailModal } from './ProductDetailModal.tsx';
 import { CartDrawer } from './CartDrawer.tsx';
 import { WishlistDrawer } from './WishlistDrawer.tsx';
 import { CheckoutModal } from './CheckoutModal.tsx';
 import { OrderSuccessModal } from './OrderSuccessModal.tsx';
+import { AuthModal } from '../auth/AuthModal.tsx';
+import { UserProfileModal } from '../profile/UserProfileModal.tsx';
 import { StorefrontFooter } from './StorefrontFooter.tsx';
 import { StorefrontFloatingChat } from './StorefrontFloatingChat.tsx';
 
@@ -31,7 +34,7 @@ export const StorefrontView: React.FC = () => {
 
   return (
     <div id="top" className="min-h-screen flex flex-col bg-[#040817] text-white transition-colors duration-200">
-      {/* Header: 3-row layout (Search + Cart + Nav pills + Trending strip) */}
+      {/* Header: Logo with Equalizer Effects + Search + Profile/Sign-up + Nav */}
       <StorefrontHeader
         onSearchChange={(q) => {
           setSearchQuery(q);
@@ -68,6 +71,9 @@ export const StorefrontView: React.FC = () => {
       {/* Promotional Banners (Instant Digital Delivery + PlayStation Gift Cards) */}
       <StorefrontBanners onShopNow={scrollToPopular} />
 
+      {/* Dedicated Sign Up & VIP Member Rewards Section */}
+      <SignUpSection />
+
       {/* Why Choose PlayBeat Digital? + Mobile App Showcase */}
       <StorefrontTrust />
 
@@ -82,6 +88,8 @@ export const StorefrontView: React.FC = () => {
       <WishlistDrawer />
       <CheckoutModal />
       <OrderSuccessModal />
+      <AuthModal />
+      <UserProfileModal />
       <StorefrontFloatingChat />
 
       {/* Footer */}
