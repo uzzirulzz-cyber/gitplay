@@ -1,0 +1,6 @@
+{
+  "name": "PlayBeat - Digital Commerce & Commerce OS",
+  "description": "Unified digital subscription storefront and Commerce OS admin dashboard with live catalog management, order fulfillment, Theme Studio, and Storefront ZIP inspector.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

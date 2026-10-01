@@ -1,0 +1,315 @@
+[
+  {
+    "_id": "6a9ecbb94dc2861f955f758a",
+    "key": "gaming",
+    "accentColor": "#f5b52e",
+    "aliases": [
+      "gaming",
+      "steam-game-keys",
+      "games"
+    ],
+    "badgeText": "Instant",
+    "description": "Steam wallet codes, game keys, Xbox Game Pass, PlayStation & more — instant delivery.",
+    "enabled": true,
+    "glowColor": "rgba(245,181,46,0.35)",
+    "group": "core",
+    "image": "/assets/images/playbeat/category-games.png",
+    "label": "Gaming",
+    "order": 1,
+    "productCategories": [
+      "Gaming",
+      "Games"
+    ],
+    "slug": "gaming",
+    "subRoutes": [
+      {
+        "slug": "steam-game-keys",
+        "label": "Steam & Game Keys"
+      }
+    ],
+    "tagRegex": "steam|game\\s?pass|game\\s?key|xbox|playstation|psn|nintendo|razer gold|valorant|gta"
+  },
+  {
+    "_id": "6a9ecbb94dc2861f955f758b",
+    "key": "software",
+    "accentColor": "#4da3ff",
+    "aliases": [
+      "software",
+      "windows-office",
+      "creative-software"
+    ],
+    "badgeText": "Genuine",
+    "description": "Genuine license keys and software activations",
+    "enabled": true,
+    "glowColor": "rgba(77,163,255,0.35)",
+    "group": "core",
+    "image": "/assets/images/playbeat/category-software.png",
+    "label": "Software",
+    "order": 2,
+    "productCategories": [
+      "Software"
+    ],
+    "slug": "software",
+    "subRoutes": [
+      {
+        "slug": "windows-office",
+        "label": "Windows & Office"
+      },
+      {
+        "slug": "creative-software",
+        "label": "Creative Software"
+      }
+    ],
+    "tagRegex": "windows|office|adobe|creative cloud|photoshop|antivirus|mcafee|kaspersky|bitdefender|nordvpn|expressvpn|surfshark|cyberghost|protonvpn|capcut|freepik|canva|envato",
+    "isActive": true,
+    "name": "Software",
+    "sortOrder": 3,
+    "updatedAt": "2026-09-28T10:10:13.931Z"
+  },
+  {
+    "_id": "6a9ecbb94dc2861f955f758c",
+    "key": "gift-cards",
+    "accentColor": "#f5b52e",
+    "aliases": [
+      "gift-cards",
+      "giftcards"
+    ],
+    "badgeText": "Popular",
+    "description": "Digital gift cards and top-up codes",
+    "enabled": true,
+    "glowColor": "rgba(245,181,46,0.35)",
+    "group": "core",
+    "image": "/assets/images/playbeat/category-giftcards.png",
+    "label": "Gift Cards",
+    "order": 3,
+    "productCategories": [
+      "Gift Cards"
+    ],
+    "slug": "gift-cards",
+    "tagRegex": "gift\\s?card|wallet code",
+    "isActive": true,
+    "name": "Gift Cards",
+    "sortOrder": 6,
+    "updatedAt": "2026-09-28T10:10:14.126Z"
+  },
+  {
+    "_id": "6a9ecbb94dc2861f955f758d",
+    "key": "social-media",
+    "accentColor": "#e05fa0",
+    "aliases": [
+      "social-media"
+    ],
+    "description": "Social media growth services and account top-ups — coming to the catalog shortly.",
+    "enabled": true,
+    "glowColor": "rgba(224,95,160,0.35)",
+    "group": "core",
+    "image": null,
+    "label": "Social Media",
+    "order": 4,
+    "productCategories": [
+      "Social Media"
+    ],
+    "slug": "social-media",
+    "tagRegex": "social media|instagram|tiktok|facebook page|youtube shorts|followers"
+  },
+  {
+    "_id": "6a9ecbb94dc2861f955f758e",
+    "key": "web-hosting",
+    "accentColor": "#39c6a5",
+    "aliases": [
+      "web-hosting"
+    ],
+    "description": "Hosting, domains, VPS and SSL — launch and run your site with PlayBeat.",
+    "enabled": true,
+    "glowColor": "rgba(57,198,165,0.35)",
+    "group": "core",
+    "image": null,
+    "label": "Web Hosting",
+    "order": 5,
+    "productCategories": [
+      "Web Hosting"
+    ],
+    "slug": "web-hosting",
+    "tagRegex": "hosting|domain|vps|ssl|cpanel|web server"
+  },
+  {
+    "_id": "6a9ecbb94dc2861f955f758f",
+    "key": "digital-marketing",
+    "accentColor": "#ff8a4d",
+    "aliases": [
+      "digital-marketing"
+    ],
+    "description": "SEO tools, marketing suites and growth services for your business.",
+    "enabled": true,
+    "glowColor": "rgba(255,138,77,0.35)",
+    "group": "core",
+    "image": null,
+    "label": "Digital Marketing",
+    "order": 6,
+    "productCategories": [
+      "Digital Marketing"
+    ],
+    "slug": "digital-marketing",
+    "tagRegex": "digital marketing|seo|semrush|ahrefs|marketing"
+  },
+  {
+    "_id": "6a9ecbba4dc2861f955f7590",
+    "key": "web3",
+    "accentColor": "#9d7bff",
+    "aliases": [
+      "web3"
+    ],
+    "description": "Crypto top-ups, wallets and Web3 services — the next internet, today.",
+    "enabled": true,
+    "glowColor": "rgba(157,123,255,0.35)",
+    "group": "core",
+    "image": null,
+    "label": "Web3",
+    "order": 7,
+    "productCategories": [
+      "Web3"
+    ],
+    "slug": "web3",
+    "tagRegex": "web3|crypto|usdt|binance|nft|wallet connect"
+  },
+  {
+    "_id": "6a9ecbba4dc2861f955f7591",
+    "key": "services",
+    "accentColor": "#4da3ff",
+    "aliases": [
+      "services",
+      "ai-subscriptions",
+      "subscriptions"
+    ],
+    "badgeText": "24/7",
+    "description": "AI subscriptions, IPTV and managed digital services with human support.",
+    "enabled": true,
+    "glowColor": "rgba(77,163,255,0.35)",
+    "group": "core",
+    "image": "/assets/images/playbeat/category-ai.png",
+    "label": "Services",
+    "order": 8,
+    "productCategories": [
+      "Subscriptions",
+      "IPTV & Services",
+      "AI & Productivity",
+      "Bundles"
+    ],
+    "slug": "services",
+    "subRoutes": [
+      {
+        "slug": "ai-subscriptions",
+        "label": "AI Subscriptions"
+      }
+    ],
+    "tagRegex": "iptv|subscription|managed service"
+  },
+  {
+    "_id": "6a9ecbba4dc2861f955f7592",
+    "key": "streaming",
+    "accentColor": "#ff5a5f",
+    "aliases": [
+      "streaming"
+    ],
+    "badgeText": "Hot",
+    "description": "IPTV 4K lines, streaming suite activations and entertainment services",
+    "enabled": true,
+    "glowColor": "rgba(255,90,95,0.35)",
+    "group": "store",
+    "image": "/assets/images/playbeat/category-subscriptions.png",
+    "label": "Streaming",
+    "order": 9,
+    "productCategories": [
+      "Streaming",
+      "IPTV & Streaming"
+    ],
+    "slug": "streaming",
+    "tagRegex": "netflix|prime video|disney|hbo|hulu|spotify|youtube premium|sonyliv|zee5|crunchyroll|chaupal|jiohotstar|appletv|apple tv|ullu",
+    "isActive": true,
+    "name": "Streaming",
+    "sortOrder": 1,
+    "updatedAt": "2026-09-28T10:10:13.800Z"
+  },
+  {
+    "_id": "6a9ecbba4dc2861f955f7593",
+    "key": "smart-projectors",
+    "accentColor": "#f5b52e",
+    "aliases": [
+      "smart-projectors",
+      "smart-4k-projectors"
+    ],
+    "badgeText": "Official Partner",
+    "description": "Smart projector hardware and accessories",
+    "enabled": true,
+    "glowColor": "rgba(245,181,46,0.35)",
+    "group": "store",
+    "image": "/assets/images/playbeat/category-projectors.png",
+    "label": "Smart Projectors",
+    "order": 10,
+    "productCategories": [
+      "Smart Projectors"
+    ],
+    "slug": "smart-projectors",
+    "subRoutes": [
+      {
+        "slug": "smart-4k-projectors",
+        "label": "Smart 4K Projectors"
+      }
+    ],
+    "tagRegex": "projector|magcubic|hy300|hy320|hcs350|hy450",
+    "isActive": true,
+    "name": "Smart Projectors",
+    "sortOrder": 5,
+    "updatedAt": "2026-09-28T10:10:14.061Z"
+  },
+  {
+    "_id": "cat_subscriptions",
+    "name": "Subscriptions",
+    "slug": "subscriptions",
+    "description": "Recurring premium subscriptions across top platforms",
+    "sortOrder": 2,
+    "isActive": true,
+    "createdAt": "2026-09-27T06:33:20.127Z",
+    "updatedAt": "2026-09-28T10:10:13.866Z"
+  },
+  {
+    "_id": "cat_ai_tools",
+    "name": "AI Tools",
+    "slug": "ai-tools",
+    "description": "AI productivity tools and verified AI accounts",
+    "sortOrder": 4,
+    "isActive": true,
+    "createdAt": "2026-09-27T06:33:20.127Z",
+    "updatedAt": "2026-09-28T10:10:13.996Z"
+  },
+  {
+    "_id": "cat_games",
+    "name": "Games",
+    "slug": "games",
+    "description": "Game keys, passes and gaming top-ups",
+    "sortOrder": 7,
+    "isActive": true,
+    "createdAt": "2026-09-27T06:33:20.127Z",
+    "updatedAt": "2026-09-28T10:10:14.191Z"
+  },
+  {
+    "_id": "cat_bundles",
+    "name": "Bundles",
+    "slug": "bundles",
+    "description": "Curated multi-product bundles at bundle pricing",
+    "sortOrder": 8,
+    "isActive": true,
+    "createdAt": "2026-09-27T06:33:20.127Z",
+    "updatedAt": "2026-09-28T10:10:14.256Z"
+  },
+  {
+    "_id": "cat_free_tools",
+    "name": "Free Tools",
+    "slug": "free-tools",
+    "description": "Free digital tools and utilities",
+    "sortOrder": 9,
+    "isActive": true,
+    "createdAt": "2026-09-27T06:33:20.127Z",
+    "updatedAt": "2026-09-28T10:10:14.322Z"
+  }
+]
